@@ -3,12 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   letter-spacing: 0.004em;
-  color: #53433e;
+  color: #034266;
 }
 
 html,
 body {
-  background-color: #beb19e;
+  background-color: #aabed1;
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #beb19e;
+  background: #aabed1;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -47,7 +47,7 @@ body {
   position: relative;
   height: 0.1em;
   width: 40px;
-  background: #53433e;
+  background: #034266;
 }
 
 .hamburger b:first-child {
@@ -78,10 +78,18 @@ body {
 .product-wrapper {
   display: flex;
   height: 100%;
-  background: #beb19e;
+  background: #aabed1;
 }
 
 .product-img {
+  width: 50%;
+  background-image: url("./images/photo5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+/* .product-img {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -90,9 +98,8 @@ body {
 }
 
 img {
-  position: relative;
-  width: 70%;
-}
+  width: 60%;
+} */
 
 .product-info {
   display: flex;
@@ -109,7 +116,7 @@ img {
 
 .product-title {
   font-family: "Grifinito L";
-  font-size: 6em;
+  font-size: 10em;
   line-height: 0.8em;
 }
 
@@ -153,7 +160,7 @@ label span {
 }
 
 input:checked + span {
-  border-color: #65524c;
+  border-color: #034266;
 }
 
 .product-add-to-cart {
@@ -165,4 +172,13 @@ input:checked + span {
   justify-content: center;
   align-items: center;
   padding: 3em;
+}
+
+sup {
+  padding: 0.05em 0.3em;
+  margin-left: -3px;
+  border-radius: 50%;
+  border: 1px solid #638599;
+  background-color: #638599;
+  color: #aabed1;
 }

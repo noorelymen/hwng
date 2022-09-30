@@ -7,6 +7,12 @@
     <title>Product Page UI</title>
     <!-- stylesheet -->
     <link rel="stylesheet" href="style.css" />
+    <!-- font -->
+    <link
+      href="//db.onlinewebfonts.com/c/1c87f20c55baa7eccc98b8603b5eecea?family=Grifinito+L"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
   </head>
@@ -21,16 +27,16 @@
             <b></b>
           </div>
         </div>
-        <div class="site-logo">qasimi</div>
+        <div class="site-logo">hwng</div>
         <div class="menu-cart navbar-item">Bag<sup>3</sup></div>
       </div>
       <div class="product-wrapper">
         <div class="product-img">
-          <img src="./images/jacket.png" alt="" />
+          <!-- <img src="./images/photo.jpeg" alt="" /> -->
         </div>
         <div class="product-info">
           <div class="product-description">
-            <div class="product-title">Alofi Performance Stretch Jacket</div>
+            <div class="product-title">Blue Knit Stretch Sweater</div>
             <div class="product-price">$865,00</div>
             <div class="product-color">Color: Combat Kaki</div>
             <div class="product-size">
@@ -59,7 +65,7 @@
     <script>
       gsap.from(".navbar", 2, { y: -100, ease: Expo.easeinOut });
       gsap.from(".product-info", 4, { x: 600, ease: Expo.easeinOut });
-      gsap.from(".product-img", 4, { y: 600, ease: Expo.easeInOut });
+      gsap.from(".product-img", 5, { x: -1224, ease: Expo.easeInOut });
       gsap.from(".product-add-to-cart", 2, {
         oapcity: 0,
         y: 600,
@@ -69,7 +75,7 @@
       TweenMax.staggerFrom(
         ".product-description > div",
         3,
-        { opacity: 0, x: 200, ease: Expo.easeInOut, delay: 1.4 },
+        { opacity: 0, x: 200, ease: Expo.easeInOut, delay: 1.8 },
         0.08
       );
     </script>
