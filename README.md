@@ -4,7 +4,9 @@ A simple and minimalistic product page UI design to practice GSAP animations
 
 ## Preview
 
-https://noorelymen.github.io/hwng/
+Github: https://noorelymen.github.io/hwng/
+<br/>
+Netlify: https://hwng.netlify.app/
 
 ## Technologies used
 <ul>
