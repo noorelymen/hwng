@@ -25,6 +25,8 @@
 html,
 body {
   background-color: #aabed1;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .container {
@@ -197,4 +199,50 @@ sup {
   border: 1px solid #638599;
   background-color: #638599;
   color: #aabed1;
+}
+
+@media only screen and (max-width: 1024px) {
+  
+  .product-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-img, 
+  .product-info {
+    width: 100%;
+    height: 40vh;
+  }
+
+  .product-img {
+    background-position: center center;
+  }
+  
+  .product-description {
+    padding: 3em;
+  }
+  
+  .product-title,
+  .product-price {
+    font-size: 5em;
+  }
+
+  label span {
+
+    padding: 0.5em 0.5em;
+    line-height: .5;
+  }
+  
+  .title-br {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+  .product-title,
+  .product-price {
+    font-size: 4em;
+  }
 }
